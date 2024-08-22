@@ -87,28 +87,28 @@
 // output: 4 6 7 9 10 11 12.
 
 
-// let user=13;
-// let a=0;
-// let b=1;
-// let nonfib=0;
-// let res="";
-// while(nonfib<user){
-//     for(let i=a+1;i<b;i++){
-//         if(i<user){
-//         res+=i+" "
+let user=13;
+let a=0;
+let b=1;
+let nonfib=0;
+let res="";
+while(nonfib<user){
+    for(let i=a+1;i<b;i++){
+        if(i<user){
+        res+=i+" "
 
-//         }
-//         nonfib++
+        }
+        nonfib++
        
-//         if(nonfib==user){
-//             break
-//         }
+        if(nonfib==user){
+            break
+        }
     
-//     }
-//     var c=a+b;
-//     a=b;
-//     b=c;
-// }
-// console.log(res)
+    }
+    var c=a+b;
+    a=b;
+    b=c;
+}
+console.log(res)
 
 
