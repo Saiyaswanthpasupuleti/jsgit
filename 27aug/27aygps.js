@@ -1,31 +1,38 @@
-// let a=[1,1,2,3,2,4,3,8,5];
-// let b=[];
-// let uniq="";
-// let dup="";
-// for(let i of a){
-//     if(!b.includes(i)){
-//         b.push(i);
-//     }
-// }
-// for(let x of b){
+// let user=[568,89,112,88,5714];
+// let res=[];
+// for(let i of user){
+//     var a=String(i);
+
+
 //     let c=0;
-//     for(let y of a){
-//         if(x==y){
+//     for(let j=0;j<a.length-1;j++){
+//         if(a[j+1]>a[j]){
 //             c++
 //         }
 //     }
-//     if(c==1){
-//         uniq+=x+" "
-//     }
-//     else{
-//         dup+=x+" "
-//     }
+//     res.push(a.length-1==c)
+    
 // }
-// console.log(uniq)
-// console.log(dup);
+// console.log(res);
+
+
+// 1) input: [23, 33, 200, 785]
+// output:  30
 
 
 
 
+// let user=[538,111,200,652];
+// let res=[];
+// for(let i of user){
+//     var a=String(i);
 
-let arr=[202,89,112,88];
+//     let c=0;
+//     for(let j=0;j<a.length-1;j++){
+//         if(a[j+1]<a[j]){
+//             c++
+//         }
+//     }
+//     res.push(a.length-1==c);
+// }
+// console.log(res);
