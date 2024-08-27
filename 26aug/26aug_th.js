@@ -42,3 +42,17 @@
 //     return a+b
 // })
 // console.log(c);
+
+
+
+// 4. scenario explained for array of objects using hasownproperty.
+
+// let us take an example :
+
+// let a={
+//     name:"yaswanth",
+//     age:21,
+//     place:"India"
+// }
+// //here by using hasown property we can check the keys that are included in our object or not ;
+// console.log(a.hasOwnProperty("age"))
