@@ -255,11 +255,3 @@ let x = [
 
 
 
-
-
-// let y=x.filter((a)=>{
-//    return a.price>=25;
-// }).map((a)=>{
-// return a.description
-// })
-// console.log(y);
