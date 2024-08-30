@@ -63,5 +63,5 @@
 
 
 // generate random otp 5 digit num using math.random
-
+js
 console.log(Math.floor(Math.random()*90000))

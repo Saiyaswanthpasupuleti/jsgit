@@ -82,14 +82,14 @@
 // if(user>1){
 //     for(let i=2;i<b;i++){
 //         if(b%i==0){
-//         console.log("the given number is not a prime")
+//         console.log("the  number is not a prime")
 //         prime=false;
 //         break;
 //         }
 
 //     }
 //     if(prime==true){
-//         console.log("the given number is a prime number")
+//         console.log("the  number is a prime number")
 //     }
 // }
 // else{
@@ -98,7 +98,5 @@
 // return "end"
 // }
 // console.log(sai(7));
-
-
 
 
