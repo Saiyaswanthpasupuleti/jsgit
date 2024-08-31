@@ -28,6 +28,4 @@ let pair=0;
 for(let q of Object.values(counter)){
     pair+=Math.floor(q/2);
 }
-
-
 console.log(pair)
