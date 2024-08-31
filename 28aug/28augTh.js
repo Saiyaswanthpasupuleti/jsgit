@@ -56,5 +56,6 @@
 
 
 let a=new Date();
-console.log(a);
-
+let b=["sun","mon","tue","wed","thur","fri","sat"];
+let c=a.getDay();
+console.log(b[c])

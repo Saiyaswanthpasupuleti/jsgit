@@ -93,7 +93,3 @@
 
 
 
-const a=new Date('2020-10-12');
-const b=a.getFullYear();
-console.log(b);
-
