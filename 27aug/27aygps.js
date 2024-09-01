@@ -92,4 +92,25 @@
 // }
 
 
+// 3) WAP to print uniques and duplicates without using includes method
+// input: 112
+// output: 
+// Uniques: 2
+// Duplicates: 1
+
+// let user="1 1 2".split(" ").map(Number).join("");
+// let b=user;
+// let z={}
+// for(let i of user){
+//   var c=0;
+//    for(let j of b){
+//         if(i==j){
+//             c++
+//         }
+//    }
+//    z[i]=c
+// }
+
+
+// console.log(Object.keys(z))
 

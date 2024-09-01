@@ -63,5 +63,54 @@
 
 
 // generate random otp 5 digit num using math.random
-js
-console.log(Math.floor(Math.random()*90000))
+// js
+// console.log(Math.floor(Math.random()*90000))
+
+
+
+
+// let user="1 1 2".split(" ").map(Number);
+// let b=user;
+// let dup="";
+// let uniq="";
+// let count={}
+// for(let i of user){
+//     let c=0;
+//     for(let j of user){
+//         if(i==j){
+//             c++
+//         }
+//     }
+//     count[i]=c
+//     if(c>1){
+//         dup+=i+" "
+//     }
+//     else{
+//         uniq+=i+" "
+//     }
+// }
+// console.log("duplicate Numbers are",dup)
+// console.log("unique Numbers are",uniq)
+
+
+
+
+
+
+// 1) input: [23, 33, 200, 785]
+// output:  30
+// let a=[23, 33, 200, 785];
+// let b=a;
+// let count={};
+// for(let i of a){
+//     let c=0;
+//     for(let j of b){
+//         if(i==j){
+//             c++
+//         }
+//     }
+//     count[i]=c
+
+   
+// }
+
