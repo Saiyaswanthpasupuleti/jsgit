@@ -5,6 +5,9 @@
 // 4 5 3
 // 2 5 3
 
+
+
+
 // output:
 // 1) Print the diagonal elements side by side:
 // Diagonal elements are: 1 5 3 3 5 2
@@ -51,18 +54,52 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // // input:
+
+// // 1 2 3
+// // 4 5 3
+// // 2 5 3
+
+// let rows=+prompt("enter no of rows : ");
+// let cols=+prompt("enter no of cols : ");
+// let matrix=[];
+// for(let i=1;i<=rows;i++){
+//     let x=[];
+//     for(let j=1;j<=cols;j++){
+//         let q=+prompt(`enter values ${i} & ${j} is `)
+//         x.push(q)
+//     }
+//     matrix.push(x)
+// }
+
+// let res="";
+// for(let i=0;i<matrix.length;i++){
+//     for(let j=0;j<matrix[i].length;j++){
+//         if(i==0 || i==rows-1 || j==0 || j==cols-1){
+//             res+=matrix[i][j]+" "
+//         }
+//     }
+// }
+// console.log(res)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // // input:
 
 // // 1 2 3
 // // 4 5 3
