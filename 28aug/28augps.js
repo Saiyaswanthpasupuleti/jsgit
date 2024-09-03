@@ -57,15 +57,77 @@
 
 
 
+
+
+
+
+
+
+
 // 3) WAP to print uniques and duplicates without using includes method
 // input: 112
 // output: 
 // Uniques: 2
 // Duplicates: 1
 
-let a="112".split("").map(Number);
-for(let i=0;i<=a.length-1;i++){
-    
-    
-}
+// let user="1 1 2".split(" ").map(Number).join("");
+// let b=user;
+// let z={}
+// for(let i of user){
+//   var c=0;
+//    for(let j of b){
+//         if(i==j){
+//             c++
+//         }
+//    }
+//    z[i]=c
+// }
 
+
+// console.log(Object.keys(z))
+
+
+
+
+
+
+
+
+
+
+
+
+// 1) input: [23, 33, 200, 785]
+// output:  30
+
+
+
+
+
+
+
+// let a=prompt("enter number : ").split(" ");
+// res=""
+// for(let i of a){
+//     emp=[];
+    
+//     for(let j of i){
+//         if(!emp.includes(j)){
+//             emp.push(j)
+//         }
+//     }
+    
+//     for(let k of emp){
+//         let c=0;
+//         for(let l of i){
+//             if(k==l){
+//                 c++
+//             }
+            
+//         }
+//         if(c>1){
+//                 res+=k
+//             }
+//     }
+// }
+// console.log(res)
